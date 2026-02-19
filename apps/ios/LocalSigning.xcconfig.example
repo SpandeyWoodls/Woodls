@@ -1,0 +1,14 @@
+// Copy to LocalSigning.xcconfig for personal local signing overrides.
+// This file is only an example and should stay committed.
+
+WOODLS_CODE_SIGN_STYLE = Automatic
+WOODLS_DEVELOPMENT_TEAM = P5Z8X89DJL
+
+WOODLS_APP_BUNDLE_ID = ai.woodls.ios.test.mariano
+WOODLS_SHARE_BUNDLE_ID = ai.woodls.ios.test.mariano.share
+WOODLS_WATCH_APP_BUNDLE_ID = ai.woodls.ios.test.mariano.watchkitapp
+WOODLS_WATCH_EXTENSION_BUNDLE_ID = ai.woodls.ios.test.mariano.watchkitapp.extension
+
+// Leave empty with automatic signing.
+WOODLS_APP_PROFILE =
+WOODLS_SHARE_PROFILE =

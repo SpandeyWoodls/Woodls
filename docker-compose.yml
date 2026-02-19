@@ -1,0 +1,56 @@
+services:
+  woodls-gateway:
+    image: ${WOODLS_IMAGE:-woodls:local}
+    environment:
+      HOME: /home/node
+      TERM: xterm-256color
+      WOODLS_GATEWAY_TOKEN: ${WOODLS_GATEWAY_TOKEN}
+      CLAUDE_AI_SESSION_KEY: ${CLAUDE_AI_SESSION_KEY}
+      CLAUDE_WEB_SESSION_KEY: ${CLAUDE_WEB_SESSION_KEY}
+      CLAUDE_WEB_COOKIE: ${CLAUDE_WEB_COOKIE}
+    volumes:
+      - ${WOODLS_CONFIG_DIR}:/home/node/.woodls
+      - ${WOODLS_WORKSPACE_DIR}:/home/node/.woodls/workspace
+    ports:
+      - "${WOODLS_GATEWAY_PORT:-3000}:3000"
+      - "${WOODLS_BRIDGE_PORT:-18790}:18790"
+    init: true
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://127.0.0.1:3000/health', r => { process.exit(r.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    mem_limit: 2g
+    cpus: 2.0
+    command:
+      [
+        "node",
+        "dist/index.js",
+        "gateway",
+        "--bind",
+        "${WOODLS_GATEWAY_BIND:-lan}",
+        "--port",
+        "3000",
+      ]
+
+  woodls-cli:
+    image: ${WOODLS_IMAGE:-woodls:local}
+    environment:
+      HOME: /home/node
+      TERM: xterm-256color
+      WOODLS_GATEWAY_TOKEN: ${WOODLS_GATEWAY_TOKEN}
+      BROWSER: echo
+      CLAUDE_AI_SESSION_KEY: ${CLAUDE_AI_SESSION_KEY}
+      CLAUDE_WEB_SESSION_KEY: ${CLAUDE_WEB_SESSION_KEY}
+      CLAUDE_WEB_COOKIE: ${CLAUDE_WEB_COOKIE}
+    volumes:
+      - ${WOODLS_CONFIG_DIR}:/home/node/.woodls
+      - ${WOODLS_WORKSPACE_DIR}:/home/node/.woodls/workspace
+    stdin_open: true
+    tty: true
+    init: true
+    mem_limit: 1g
+    cpus: 1.0
+    entrypoint: ["node", "dist/index.js"]

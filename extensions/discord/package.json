@@ -1,0 +1,14 @@
+{
+  "name": "@woodls/discord",
+  "version": "2026.2.18",
+  "description": "Woodls Discord channel plugin",
+  "type": "module",
+  "devDependencies": {
+    "woodls": "workspace:*"
+  },
+  "woodls": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

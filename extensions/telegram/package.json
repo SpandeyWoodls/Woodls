@@ -1,0 +1,15 @@
+{
+  "name": "@woodls/telegram",
+  "version": "2026.2.18",
+  "private": true,
+  "description": "Woodls Telegram channel plugin",
+  "type": "module",
+  "devDependencies": {
+    "woodls": "workspace:*"
+  },
+  "woodls": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

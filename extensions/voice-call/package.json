@@ -1,0 +1,19 @@
+{
+  "name": "@woodls/voice-call",
+  "version": "2026.2.18",
+  "description": "Woodls voice-call plugin",
+  "type": "module",
+  "dependencies": {
+    "@sinclair/typebox": "0.34.48",
+    "ws": "^8.19.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "woodls": "workspace:*"
+  },
+  "woodls": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: woodls
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: SETUP_PASSWORD
+        sync: false
+      - key: WOODLS_STATE_DIR
+        value: /data/.woodls
+      - key: WOODLS_WORKSPACE_DIR
+        value: /data/workspace
+      - key: WOODLS_GATEWAY_TOKEN
+        generateValue: true
+    disk:
+      name: woodls-data
+      mountPath: /data
+      sizeGB: 1

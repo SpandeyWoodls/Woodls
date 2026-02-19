@@ -1,0 +1,29 @@
+{
+  "name": "@woodls/mattermost",
+  "version": "2026.2.18",
+  "private": true,
+  "description": "Woodls Mattermost channel plugin",
+  "type": "module",
+  "devDependencies": {
+    "woodls": "workspace:*"
+  },
+  "woodls": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "channel": {
+      "id": "mattermost",
+      "label": "Mattermost",
+      "selectionLabel": "Mattermost (plugin)",
+      "docsPath": "/channels/mattermost",
+      "docsLabel": "mattermost",
+      "blurb": "self-hosted Slack-style chat; install the plugin to enable.",
+      "order": 65
+    },
+    "install": {
+      "npmSpec": "@woodls/mattermost",
+      "localPath": "extensions/mattermost",
+      "defaultChoice": "npm"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@woodls/llm-task",
+  "version": "2026.2.18",
+  "private": true,
+  "description": "Woodls JSON-only LLM task plugin",
+  "type": "module",
+  "devDependencies": {
+    "woodls": "workspace:*"
+  },
+  "woodls": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

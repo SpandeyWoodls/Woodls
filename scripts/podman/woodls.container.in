@@ -1,0 +1,26 @@
+# Woodls gateway — Podman Quadlet (rootless)
+# Installed by setup-podman.sh into woodls's ~/.config/containers/systemd/
+# {{WOODLS_HOME}} is replaced at install time.
+
+[Unit]
+Description=Woodls gateway (rootless Podman)
+
+[Container]
+Image=woodls:local
+ContainerName=woodls
+UserNS=keep-id
+Volume={{WOODLS_HOME}}/.woodls:/home/node/.woodls
+EnvironmentFile={{WOODLS_HOME}}/.woodls/.env
+Environment=HOME=/home/node
+Environment=TERM=xterm-256color
+PublishPort=18789:18789
+PublishPort=18790:18790
+Pull=never
+Exec=node dist/index.js gateway --bind lan --port 18789
+
+[Service]
+TimeoutStartSec=300
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
