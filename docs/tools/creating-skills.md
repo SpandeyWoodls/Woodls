@@ -51,4 +51,4 @@ Ask your agent to "refresh skills" or restart the gateway. Woodls will discover 
 
 ## Shared Skills
 
-You can also browse and contribute skills to [ClawHub](https://clawhub.com).
+You can also browse and contribute skills to [WoodlsHub](https://woodlshub.com).

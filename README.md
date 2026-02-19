@@ -242,11 +242,11 @@ Details: [Nodes](https://docs.woodls.ai/nodes) · [macOS app](https://docs.woodl
 
 Details: [Session tools](https://docs.woodls.ai/concepts/session-tool)
 
-## Skills registry (ClawHub)
+## Skills registry (WoodlsHub)
 
-ClawHub is a minimal skill registry. With ClawHub enabled, the agent can search for skills automatically and pull in new ones as needed.
+WoodlsHub is a minimal skill registry. With WoodlsHub enabled, the agent can search for skills automatically and pull in new ones as needed.
 
-[ClawHub](https://clawhub.com)
+[WoodlsHub](https://woodlshub.com)
 
 ## Chat commands
 
@@ -463,10 +463,9 @@ Use these when you’re past the onboarding flow and want the deeper reference.
 
 ## Origins
 
-Woodls is derived from [OpenClaw](https://github.com/openclaw/openclaw), originally created by Peter Steinberger and the community. Rebranded as Woodls.
+Woodls is derived from [OpenClaw](https://github.com/openclaw/openclaw), originally created by Peter Steinberger and the community. Rebranded and maintained as Woodls by [Shubham Pandey](https://github.com/SpandeyWoodls).
 
 - [woodls.dev](https://woodls.dev)
-- [steipete.me](https://steipete.me)
 
 ## Community
 
@@ -477,7 +476,7 @@ Special thanks to [Mario Zechner](https://mariozechner.at/) for his support and 
 [pi-mono](https://github.com/badlogic/pi-mono).
 Special thanks to Adam Doppelt for lobster.bot.
 
-Thanks to all clawtributors:
+Thanks to all contributors:
 
 <p align="left">
   <a href="https://github.com/steipete"><img src="https://avatars.githubusercontent.com/u/58493?v=4&s=48" width="48" height="48" alt="steipete" title="steipete"/></a> <a href="https://github.com/joshp123"><img src="https://avatars.githubusercontent.com/u/1497361?v=4&s=48" width="48" height="48" alt="joshp123" title="joshp123"/></a> <a href="https://github.com/cpojer"><img src="https://avatars.githubusercontent.com/u/13352?v=4&s=48" width="48" height="48" alt="cpojer" title="cpojer"/></a> <a href="https://github.com/mbelinky"><img src="https://avatars.githubusercontent.com/u/132747814?v=4&s=48" width="48" height="48" alt="Mariano Belinky" title="Mariano Belinky"/></a> <a href="https://github.com/sebslight"><img src="https://avatars.githubusercontent.com/u/19554889?v=4&s=48" width="48" height="48" alt="sebslight" title="sebslight"/></a> <a href="https://github.com/Takhoffman"><img src="https://avatars.githubusercontent.com/u/781889?v=4&s=48" width="48" height="48" alt="Takhoffman" title="Takhoffman"/></a> <a href="https://github.com/quotentiroler"><img src="https://avatars.githubusercontent.com/u/40643627?v=4&s=48" width="48" height="48" alt="quotentiroler" title="quotentiroler"/></a> <a href="https://github.com/bohdanpodvirnyi"><img src="https://avatars.githubusercontent.com/u/31819391?v=4&s=48" width="48" height="48" alt="bohdanpodvirnyi" title="bohdanpodvirnyi"/></a> <a href="https://github.com/tyler6204"><img src="https://avatars.githubusercontent.com/u/64381258?v=4&s=48" width="48" height="48" alt="tyler6204" title="tyler6204"/></a> <a href="https://github.com/iHildy"><img src="https://avatars.githubusercontent.com/u/25069719?v=4&s=48" width="48" height="48" alt="iHildy" title="iHildy"/></a>

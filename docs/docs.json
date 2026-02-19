@@ -272,16 +272,16 @@
       "destination": "/start/woodls"
     },
     {
-      "source": "/clawhub",
-      "destination": "/tools/clawhub"
+      "source": "/woodlshub",
+      "destination": "/tools/woodlshub"
     },
     {
       "source": "/woodlshub",
-      "destination": "/tools/clawhub"
+      "destination": "/tools/woodlshub"
     },
     {
       "source": "/tools/woodlshub",
-      "destination": "/tools/clawhub"
+      "destination": "/tools/woodlshub"
     },
     {
       "source": "/configuration",
@@ -996,7 +996,7 @@
                   "tools/slash-commands",
                   "tools/skills",
                   "tools/skills-config",
-                  "tools/clawhub",
+                  "tools/woodlshub",
                   "tools/plugin"
                 ]
               },
@@ -1513,7 +1513,7 @@
                   "zh-CN/tools/slash-commands",
                   "zh-CN/tools/skills",
                   "zh-CN/tools/skills-config",
-                  "zh-CN/tools/clawhub",
+                  "zh-CN/tools/woodlshub",
                   "zh-CN/tools/plugin"
                 ]
               },

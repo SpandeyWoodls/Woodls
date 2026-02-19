@@ -87,7 +87,7 @@ We are currently prioritizing:
 
 - **Stability**: Fixing edge cases in channel connections (WhatsApp/Telegram).
 - **UX**: Improving the onboarding wizard and error messages.
-- **Skills**: For skill contributions, head to [ClawHub](https://clawhub.ai/) — the community hub for Woodls skills.
+- **Skills**: For skill contributions, head to [WoodlsHub](https://woodlshub.ai/) — the community hub for Woodls skills.
 - **Performance**: Optimizing token usage and compaction logic.
 
 Check the [GitHub Issues](https://github.com/woodls/woodls/issues) for "good first issue" labels!
@@ -120,7 +120,7 @@ We take security reports seriously. Report vulnerabilities directly to the repos
 - **macOS desktop app** — [woodls/woodls](https://github.com/woodls/woodls) (apps/macos)
 - **iOS app** — [woodls/woodls](https://github.com/woodls/woodls) (apps/ios)
 - **Android app** — [woodls/woodls](https://github.com/woodls/woodls) (apps/android)
-- **ClawHub** — [woodls/clawhub](https://github.com/woodls/clawhub)
+- **WoodlsHub** — [woodls/woodlshub](https://github.com/woodls/woodlshub)
 - **Trust and threat model** — [woodls/trust](https://github.com/woodls/trust)
 
 For issues that don't fit a specific repo, or if you're unsure, email **security@woodls.ai** and we'll route it.

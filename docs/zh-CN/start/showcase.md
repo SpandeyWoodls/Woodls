@@ -141,28 +141,28 @@ OpenCode 完成更改 → 打开 PR → Woodls 审查差异并在 Telegram 中�
   <img src="/assets/showcase/papla-tts.jpg" alt="Telegram voice note output from TTS" />
 </Card>
 
-<Card title="CodexMonitor" icon="eye" href="https://clawhub.com/odrobnik/codexmonitor">
+<Card title="CodexMonitor" icon="eye" href="https://woodlshub.com/odrobnik/codexmonitor">
   **@odrobnik** • `devtools` `codex` `brew`
 
 Homebrew 安装的助手工具，用于列出/检查/监视本地 OpenAI Codex 会话（CLI + VS Code）。
 
-  <img src="/assets/showcase/codexmonitor.png" alt="CodexMonitor on ClawHub" />
+  <img src="/assets/showcase/codexmonitor.png" alt="CodexMonitor on WoodlsHub" />
 </Card>
 
-<Card title="Bambu 3D 打印机控制" icon="print" href="https://clawhub.com/tobiasbischoff/bambu-cli">
+<Card title="Bambu 3D 打印机控制" icon="print" href="https://woodlshub.com/tobiasbischoff/bambu-cli">
   **@tobiasbischoff** • `hardware` `3d-printing` `skill`
 
 控制和排查 BambuLab 打印机：状态、任务、摄像头、AMS、校准等。
 
-  <img src="/assets/showcase/bambu-cli.png" alt="Bambu CLI skill on ClawHub" />
+  <img src="/assets/showcase/bambu-cli.png" alt="Bambu CLI skill on WoodlsHub" />
 </Card>
 
-<Card title="维也纳交通 (Wiener Linien)" icon="train" href="https://clawhub.com/hjanuschka/wienerlinien">
+<Card title="维也纳交通 (Wiener Linien)" icon="train" href="https://woodlshub.com/hjanuschka/wienerlinien">
   **@hjanuschka** • `travel` `transport` `skill`
 
 维也纳公共交通的实时发车时间、中断信息、电梯状态和路线规划。
 
-  <img src="/assets/showcase/wienerlinien.png" alt="Wiener Linien skill on ClawHub" />
+  <img src="/assets/showcase/wienerlinien.png" alt="Wiener Linien skill on WoodlsHub" />
 </Card>
 
 <Card title="ParentPay 学校餐食" icon="utensils" href="#">
@@ -171,7 +171,7 @@ Homebrew 安装的助手工具，用于列出/检查/监视本地 OpenAI Codex �
 通过 ParentPay 自动预订英国学校餐食。使用鼠标坐标实现可靠的表格单元格点击。
 </Card>
 
-<Card title="R2 上传 (Send Me My Files)" icon="cloud-arrow-up" href="https://clawhub.com/skills/r2-upload">
+<Card title="R2 上传 (Send Me My Files)" icon="cloud-arrow-up" href="https://woodlshub.com/skills/r2-upload">
   **@julianengel** • `files` `r2` `presigned-urls`
 
 上传到 Cloudflare R2/S3 并生成安全的预签名下载链接。非常适合远程 Woodls 实例。
@@ -267,7 +267,7 @@ Claude Code 发现并确认了净化器控制，然后 Woodls 接管来管理房
 <Card title="Jira Skill 构建器" icon="diagram-project" href="https://x.com/jdrhyne/status/2008336434827002232">
   **@jdrhyne** • `automation` `jira` `skill` `devtools`
 
-Woodls 连接到 Jira，然后即时生成一个新的 skill（在它出现在 ClawHub 之前）。
+Woodls 连接到 Jira，然后即时生成一个新的 skill（在它出现在 WoodlsHub 之前）。
 </Card>
 
 <Card title="通过 Telegram 创建 Todoist Skill" icon="list-check" href="https://x.com/iamsubhrajyoti/status/2009949389884920153">
@@ -332,10 +332,10 @@ Woodls 连接到 Jira，然后即时生成一个新的 skill（在它出现在 C
   Vapi 语音助手 ↔ Woodls HTTP 桥接。与你的智能体进行近实时电话通话。
 </Card>
 
-<Card title="OpenRouter 转录" icon="microphone" href="https://clawhub.com/obviyus/openrouter-transcribe">
+<Card title="OpenRouter 转录" icon="microphone" href="https://woodlshub.com/obviyus/openrouter-transcribe">
   **@obviyus** • `transcription` `multilingual` `skill`
 
-通过 OpenRouter（Gemini 等）进行多语言音频转录。可在 ClawHub 获取。
+通过 OpenRouter（Gemini 等）进行多语言音频转录。可在 WoodlsHub 获取。
 </Card>
 
 </CardGroup>
@@ -350,8 +350,8 @@ Woodls 连接到 Jira，然后即时生成一个新的 skill（在它出现在 C
   在 Home Assistant OS 上运行的 Woodls Gateway 网关，支持 SSH 隧道和持久状态。
 </Card>
 
-<Card title="Home Assistant Skill" icon="toggle-on" href="https://clawhub.com/skills/homeassistant">
-  **ClawHub** • `homeassistant` `skill` `automation`
+<Card title="Home Assistant Skill" icon="toggle-on" href="https://woodlshub.com/skills/homeassistant">
+  **WoodlsHub** • `homeassistant` `skill` `automation`
   
   通过自然语言控制和自动化 Home Assistant 设备。
 </Card>
@@ -362,8 +362,8 @@ Woodls 连接到 Jira，然后即时生成一个新的 skill（在它出现在 C
   开箱即用的 nixified Woodls 配置，用于可复现的部署。
 </Card>
 
-<Card title="CalDAV 日历" icon="calendar" href="https://clawhub.com/skills/caldav-calendar">
-  **ClawHub** • `calendar` `caldav` `skill`
+<Card title="CalDAV 日历" icon="calendar" href="https://woodlshub.com/skills/caldav-calendar">
+  **WoodlsHub** • `calendar` `caldav` `skill`
   
   使用 khal/vdirsyncer 的日历 skill。自托管日历集成。
 </Card>

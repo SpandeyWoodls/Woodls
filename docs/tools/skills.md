@@ -47,22 +47,22 @@ You can gate them via `metadata.woodls.requires.config` on the plugin’s config
 entry. See [Plugins](/tools/plugin) for discovery/config and [Tools](/tools) for the
 tool surface those skills teach.
 
-## ClawHub (install + sync)
+## WoodlsHub (install + sync)
 
-ClawHub is the public skills registry for Woodls. Browse at
-[https://clawhub.com](https://clawhub.com). Use it to discover, install, update, and back up skills.
-Full guide: [ClawHub](/tools/clawhub).
+WoodlsHub is the public skills registry for Woodls. Browse at
+[https://woodlshub.com](https://woodlshub.com). Use it to discover, install, update, and back up skills.
+Full guide: [WoodlsHub](/tools/woodlshub).
 
 Common flows:
 
 - Install a skill into your workspace:
-  - `clawhub install <skill-slug>`
+  - `woodlshub install <skill-slug>`
 - Update all installed skills:
-  - `clawhub update --all`
+  - `woodlshub update --all`
 - Sync (scan + publish updates):
-  - `clawhub sync --all`
+  - `woodlshub sync --all`
 
-By default, `clawhub` installs into `./skills` under your current working
+By default, `woodlshub` installs into `./skills` under your current working
 directory (or falls back to the configured Woodls workspace). Woodls picks
 that up as `<workspace>/skills` on the next session.
 
@@ -295,6 +295,6 @@ See [Skills config](/tools/skills-config) for the full configuration schema.
 
 ## Looking for more skills?
 
-Browse [https://clawhub.com](https://clawhub.com).
+Browse [https://woodlshub.com](https://woodlshub.com).
 
 ---

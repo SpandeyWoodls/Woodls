@@ -10,7 +10,7 @@ Report vulnerabilities directly to the repository where the issue lives:
 - **macOS desktop app** — [woodls/woodls](https://github.com/woodls/woodls) (apps/macos)
 - **iOS app** — [woodls/woodls](https://github.com/woodls/woodls) (apps/ios)
 - **Android app** — [woodls/woodls](https://github.com/woodls/woodls) (apps/android)
-- **ClawHub** — [woodls/clawhub](https://github.com/woodls/clawhub)
+- **WoodlsHub** — [woodls/woodlshub](https://github.com/woodls/woodlshub)
 - **Trust and threat model** — [woodls/trust](https://github.com/woodls/trust)
 
 For issues that don't fit a specific repo, or if you're unsure, email **security@woodls.ai** and we'll route it.

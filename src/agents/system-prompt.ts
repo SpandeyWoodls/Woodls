@@ -159,7 +159,7 @@ function buildDocsSection(params: { docsPath?: string; isMinimal: boolean; readT
     "Mirror: https://docs.woodls.ai",
     "Source: https://github.com/woodls/woodls",
     "Community: https://discord.com/invite/woodls",
-    "Find new skills: https://clawhub.com",
+    "Find new skills: https://woodlshub.com",
     "For Woodls behavior, commands, config, or architecture: consult local docs first.",
     "When diagnosing issues, run `woodls status` yourself when possible; only ask the user if you lack access (e.g., sandboxed).",
     "",

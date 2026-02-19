@@ -1013,7 +1013,7 @@ Use managed overrides instead of editing the repo copy. Put your changes in `~/.
 
 ### Can I load skills from a custom folder
 
-Yes. Add extra directories via `skills.load.extraDirs` in `~/.woodls/woodls.json` (lowest precedence). Default precedence remains: `<workspace>/skills` → `~/.woodls/skills` → bundled → `skills.load.extraDirs`. `clawhub` installs into `./skills` by default, which Woodls treats as `<workspace>/skills`.
+Yes. Add extra directories via `skills.load.extraDirs` in `~/.woodls/woodls.json` (lowest precedence). Default precedence remains: `<workspace>/skills` → `~/.woodls/skills` → bundled → `skills.load.extraDirs`. `woodlshub` installs into `./skills` by default, which Woodls treats as `<workspace>/skills`.
 
 ### How can I use different models for different tasks
 
@@ -1060,17 +1060,17 @@ Docs: [Cron jobs](/automation/cron-jobs), [Cron vs Heartbeat](/automation/cron-v
 
 ### How do I install skills on Linux
 
-Use **ClawHub** (CLI) or drop skills into your workspace. The macOS Skills UI isn't available on Linux.
-Browse skills at [https://clawhub.com](https://clawhub.com).
+Use **WoodlsHub** (CLI) or drop skills into your workspace. The macOS Skills UI isn't available on Linux.
+Browse skills at [https://woodlshub.com](https://woodlshub.com).
 
-Install the ClawHub CLI (pick one package manager):
+Install the WoodlsHub CLI (pick one package manager):
 
 ```bash
-npm i -g clawhub
+npm i -g woodlshub
 ```
 
 ```bash
-pnpm add -g clawhub
+pnpm add -g woodlshub
 ```
 
 ### Can Woodls run tasks on a schedule or continuously in the background
@@ -1140,11 +1140,11 @@ targeting those APIs.
 Install skills:
 
 ```bash
-clawhub install <skill-slug>
-clawhub update --all
+woodlshub install <skill-slug>
+woodlshub update --all
 ```
 
-ClawHub installs into `./skills` under your current directory (or falls back to your configured Woodls workspace); Woodls treats that as `<workspace>/skills` on the next session. For shared skills across agents, place them in `~/.woodls/skills/<name>/SKILL.md`. Some skills expect binaries installed via Homebrew; on Linux that means Linuxbrew (see the Homebrew Linux FAQ entry above). See [Skills](/tools/skills) and [ClawHub](/tools/clawhub).
+WoodlsHub installs into `./skills` under your current directory (or falls back to your configured Woodls workspace); Woodls treats that as `<workspace>/skills` on the next session. For shared skills across agents, place them in `~/.woodls/skills/<name>/SKILL.md`. Some skills expect binaries installed via Homebrew; on Linux that means Linuxbrew (see the Homebrew Linux FAQ entry above). See [Skills](/tools/skills) and [WoodlsHub](/tools/woodlshub).
 
 ### How do I install the Chrome extension for browser takeover
 

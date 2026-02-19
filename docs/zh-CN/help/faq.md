@@ -938,7 +938,7 @@ Woodls 是一个**个人助手**和协调层，不是 IDE 替代品。使用 Cla
 
 ### 可以从自定义文件夹加载 Skills 吗
 
-可以。通过 `~/.woodls/woodls.json` 中的 `skills.load.extraDirs` 添加额外目录（最低优先级）。默认优先级保持不变：`<workspace>/skills` → `~/.woodls/skills` → 内置 → `skills.load.extraDirs`。`clawhub` 默认安装到 `./skills`，Woodls 将其视为 `<workspace>/skills`。
+可以。通过 `~/.woodls/woodls.json` 中的 `skills.load.extraDirs` 添加额外目录（最低优先级）。默认优先级保持不变：`<workspace>/skills` → `~/.woodls/skills` → 内置 → `skills.load.extraDirs`。`woodlshub` 默认安装到 `./skills`，Woodls 将其视为 `<workspace>/skills`。
 
 ### 如何为不同任务使用不同模型
 
@@ -982,17 +982,17 @@ woodls cron runs --id <jobId> --limit 50
 
 ### 如何在 Linux 上安装 Skills
 
-使用 **ClawHub**（CLI）或将 Skills 放入你的工作区。macOS Skills UI 在 Linux 上不可用。
-浏览 Skills：https://clawhub.com。
+使用 **WoodlsHub**（CLI）或将 Skills 放入你的工作区。macOS Skills UI 在 Linux 上不可用。
+浏览 Skills：https://woodlshub.com。
 
-安装 ClawHub CLI（选择一个包管理器）：
+安装 WoodlsHub CLI（选择一个包管理器）：
 
 ```bash
-npm i -g clawhub
+npm i -g woodlshub
 ```
 
 ```bash
-pnpm add -g clawhub
+pnpm add -g woodlshub
 ```
 
 ### Woodls 能否按计划或在后台持续运行任务
@@ -1059,11 +1059,11 @@ pnpm add -g clawhub
 安装 Skills：
 
 ```bash
-clawhub install <skill-slug>
-clawhub update --all
+woodlshub install <skill-slug>
+woodlshub update --all
 ```
 
-ClawHub 安装到当前目录下的 `./skills`（或回退到你配置的 Woodls 工作区）；Woodls 在下一个会话中将其视为 `<workspace>/skills`。对于跨智能体共享的 Skills，将它们放在 `~/.woodls/skills/<name>/SKILL.md`。某些 Skills 期望通过 Homebrew 安装二进制文件；在 Linux 上意味着 Linuxbrew（参阅上面的 Homebrew Linux 常见问题条目）。参阅[Skills](/tools/skills)和 [ClawHub](/tools/clawhub)。
+WoodlsHub 安装到当前目录下的 `./skills`（或回退到你配置的 Woodls 工作区）；Woodls 在下一个会话中将其视为 `<workspace>/skills`。对于跨智能体共享的 Skills，将它们放在 `~/.woodls/skills/<name>/SKILL.md`。某些 Skills 期望通过 Homebrew 安装二进制文件；在 Linux 上意味着 Linuxbrew（参阅上面的 Homebrew Linux 常见问题条目）。参阅[Skills](/tools/skills)和 [WoodlsHub](/tools/woodlshub)。
 
 ### 如何安装用于浏览器接管的 Chrome 扩展
 

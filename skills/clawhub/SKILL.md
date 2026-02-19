@@ -1,77 +1,77 @@
 ---
-name: clawhub
-description: Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.
+name: woodlshub
+description: Use the WoodlsHub CLI to search, install, update, and publish agent skills from woodlshub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed woodlshub CLI.
 metadata:
   {
     "woodls":
       {
-        "requires": { "bins": ["clawhub"] },
+        "requires": { "bins": ["woodlshub"] },
         "install":
           [
             {
               "id": "node",
               "kind": "node",
-              "package": "clawhub",
-              "bins": ["clawhub"],
-              "label": "Install ClawHub CLI (npm)",
+              "package": "woodlshub",
+              "bins": ["woodlshub"],
+              "label": "Install WoodlsHub CLI (npm)",
             },
           ],
       },
   }
 ---
 
-# ClawHub CLI
+# WoodlsHub CLI
 
 Install
 
 ```bash
-npm i -g clawhub
+npm i -g woodlshub
 ```
 
 Auth (publish)
 
 ```bash
-clawhub login
-clawhub whoami
+woodlshub login
+woodlshub whoami
 ```
 
 Search
 
 ```bash
-clawhub search "postgres backups"
+woodlshub search "postgres backups"
 ```
 
 Install
 
 ```bash
-clawhub install my-skill
-clawhub install my-skill --version 1.2.3
+woodlshub install my-skill
+woodlshub install my-skill --version 1.2.3
 ```
 
 Update (hash-based match + upgrade)
 
 ```bash
-clawhub update my-skill
-clawhub update my-skill --version 1.2.3
-clawhub update --all
-clawhub update my-skill --force
-clawhub update --all --no-input --force
+woodlshub update my-skill
+woodlshub update my-skill --version 1.2.3
+woodlshub update --all
+woodlshub update my-skill --force
+woodlshub update --all --no-input --force
 ```
 
 List
 
 ```bash
-clawhub list
+woodlshub list
 ```
 
 Publish
 
 ```bash
-clawhub publish ./my-skill --slug my-skill --name "My Skill" --version 1.2.0 --changelog "Fixes + docs"
+woodlshub publish ./my-skill --slug my-skill --name "My Skill" --version 1.2.0 --changelog "Fixes + docs"
 ```
 
 Notes
 
-- Default registry: https://clawhub.com (override with CLAWHUB_REGISTRY or --registry)
-- Default workdir: cwd (falls back to Woodls workspace); install dir: ./skills (override with --workdir / --dir / CLAWHUB_WORKDIR)
+- Default registry: https://woodlshub.com (override with WOODLSHUB_REGISTRY or --registry)
+- Default workdir: cwd (falls back to Woodls workspace); install dir: ./skills (override with --workdir / --dir / WOODLSHUB_WORKDIR)
 - Update command hashes local files, resolves matching version, and upgrades to latest unless --version is set
